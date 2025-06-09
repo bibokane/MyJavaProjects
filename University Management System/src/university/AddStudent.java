@@ -41,7 +41,7 @@ class AddStudent implements ActionListener{
         f.add(id15);
 
  
-        id1 = new JLabel("Firstame");
+        id1 = new JLabel("Firstname");
         id1.setBounds(50,150,100,30);
         id1.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id1);
@@ -50,7 +50,7 @@ class AddStudent implements ActionListener{
         t1.setBounds(200,150,150,30);
         id15.add(t1);
 
-        id2 = new JLabel("Lastame");
+        id2 = new JLabel("Lastname");
         id2.setBounds(400,150,200,30);
         id2.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id2);
@@ -68,7 +68,7 @@ class AddStudent implements ActionListener{
         t3.setBounds(200,200,150,30);
         id15.add(t3);
 
-        id4= new JLabel("DOB (dd/mm/yyyy)");  
+        id4= new JLabel("Date of Birth (dd/mm/yyyy)");
         id4.setBounds(400,200,200,30);
         id4.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id4);
