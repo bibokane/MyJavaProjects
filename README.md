@@ -18,3 +18,17 @@ Technologien und Funktionen:
     Produktverwaltung mit vollständiger CRUD-Funktionalität (Erstellen, Lesen, Aktualisieren, Löschen)
     Rechnungserstellung direkt aus der Verkaufsmaske heraus
     Such- und Filterfunktionen für Produkte und Verkäufer zur schnellen Navigation und Datenpflege
+
+- Covid Information Tracker
+
+Ein webbasiertes Dashboard zur Echtzeitverfolgung von COVID-19-Statistiken, entwickelt mit Java Spring Boot und JDBC. Das System ruft tagesaktuelle Daten ab, verarbeitet sie effizient und stellt sie benutzerfreundlich dar.
+    Funktionen:
+    Anzeige von Fallzahlen, Genesungen und Todesfällen nach Ländern/Regionen
+    Automatisierter Datenimport von öffentlichen APIs (z. B. JHU, WHO)
+    Speicherung der Daten in einer relationalen Datenbank via JDBC
+    REST-API zur Bereitstellung von Statistiken für externe Clients
+
+    Technologien:
+    Backend: Java, Spring Boot, JDBC
+    API-Integration: Öffentliche COVID-19-Datenquellen
+  
