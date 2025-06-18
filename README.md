@@ -31,4 +31,6 @@ Ein webbasiertes Dashboard zur Echtzeitverfolgung von COVID-19-Statistiken, entw
     Technologien:
     Backend: Java, Spring Boot, JDBC
     API-Integration: Öffentliche COVID-19-Datenquellen
+
+   
   
