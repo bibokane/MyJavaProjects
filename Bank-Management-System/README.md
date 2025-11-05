@@ -203,13 +203,6 @@ Das System besteht aus mehreren modularen Komponenten:
 
 Dieses Projekt ist für Lernzwecke und sollte nicht ohne Sicherheitsverbesserungen für den Produktionseinsatz verwendet werden.
 
-## 🐛 Bekannte Probleme
-
-1. SQL-Injection: Die aktuelle Implementierung verwendet String-Concatenation für SQL-Queries
-2. Hardcodierte Passwörter: Datenbankpasswörter sind im Code enthalten
-3. Keine Verschlüsselung: PINs werden im Klartext gespeichert
-4. Keine Session-Timeouts: Benutzersitzungen haben kein Zeitlimit
-
 ## 🚀 Zukünftige Verbesserungen
 
 - [ ] Implementierung von PreparedStatements für SQL-Sicherheit
