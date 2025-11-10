@@ -39,6 +39,7 @@ Der COVID-19 Tracker ist eine Spring Boot Web-Anwendung, die täglich aktualisie
 
 #### 1. Repository klonen/navigieren
 ```bash
+git clone https://github.com/bibokane/MyJavaProjects/tree/main/covid-tracker
 cd covid-tracker
 ```
 
